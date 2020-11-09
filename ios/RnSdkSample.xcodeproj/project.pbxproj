@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9003225F255953F300BE73D2 /* SaltoJustINMobileSDK 2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9003225E255953F300BE73D2 /* SaltoJustINMobileSDK 2.xcframework */; };
 		900322632559583D00BE73D2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900322622559583D00BE73D2 /* CoreBluetooth.framework */; };
 		900322692559586200BE73D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900322682559586200BE73D2 /* Foundation.framework */; };
 		9003226D2559705600BE73D2 /* RnSdkSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 9003226B2559705600BE73D2 /* RnSdkSample.m */; };
 		9003226E2559705600BE73D2 /* RnSdkSample.h in Sources */ = {isa = PBXBuildFile; fileRef = 9003226C2559705600BE73D2 /* RnSdkSample.h */; };
+		9003227E2559747400BE73D2 /* SaltoJustINMobileSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9003227D2559747400BE73D2 /* SaltoJustINMobileSDK.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,12 +28,13 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRnSdkSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRnSdkSample.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9003225E255953F300BE73D2 /* SaltoJustINMobileSDK 2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "SaltoJustINMobileSDK 2.xcframework"; sourceTree = "<group>"; };
 		900322622559583D00BE73D2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
 		900322682559586200BE73D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9003226B2559705600BE73D2 /* RnSdkSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RnSdkSample.m; sourceTree = "<group>"; };
 		9003226C2559705600BE73D2 /* RnSdkSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RnSdkSample.h; sourceTree = "<group>"; };
 		90032270255970A500BE73D2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		9003227A2559745000BE73D2 /* SaltoJustINMobileSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SaltoJustINMobileSDK.xcframework; path = "../../../VirtualKey/Salto/SALTO JustIN Mobile SDK 2020-02-28/iOS/SDK/SaltoJustINMobileSDK.xcframework"; sourceTree = "<group>"; };
+		9003227D2559747400BE73D2 /* SaltoJustINMobileSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SaltoJustINMobileSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +43,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				900322692559586200BE73D2 /* Foundation.framework in Frameworks */,
+				9003227E2559747400BE73D2 /* SaltoJustINMobileSDK.xcframework in Frameworks */,
 				900322632559583D00BE73D2 /* CoreBluetooth.framework in Frameworks */,
-				9003225F255953F300BE73D2 /* SaltoJustINMobileSDK 2.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,10 +62,10 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				9003227A2559745000BE73D2 /* SaltoJustINMobileSDK.xcframework */,
 				9003226B2559705600BE73D2 /* RnSdkSample.m */,
 				9003226C2559705600BE73D2 /* RnSdkSample.h */,
 				90032270255970A500BE73D2 /* CoreBluetooth.framework */,
-				9003225E255953F300BE73D2 /* SaltoJustINMobileSDK 2.xcframework */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				900322612559583D00BE73D2 /* Frameworks */,
 			);
@@ -73,6 +74,7 @@
 		900322612559583D00BE73D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9003227D2559747400BE73D2 /* SaltoJustINMobileSDK.xcframework */,
 				900322682559586200BE73D2 /* Foundation.framework */,
 				900322622559583D00BE73D2 /* CoreBluetooth.framework */,
 			);
